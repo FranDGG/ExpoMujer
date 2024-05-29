@@ -36,43 +36,43 @@ public class PasswordQR : MonoBehaviour
         //Margarita (Minigame 02)
         else if (inputPasswordCheck == "expomujer245")
         {
-            SceneManager.LoadScene("Minigame");
+            SceneManager.LoadScene("Minigame2");
         }
 
         //Florencio (Minigame 03)
         else if (inputPasswordCheck == "expomujer382")
         {
-            SceneManager.LoadScene("Minigame");
+            SceneManager.LoadScene("Minigame3");
         }
 
         //Jacinto (Minigame 04)
         else if (inputPasswordCheck == "expomujer476")
         {
-            SceneManager.LoadScene("Minigame");
+            SceneManager.LoadScene("Minigame4");
         }
 
         //Gladiolo (Minigame 05)
         else if (inputPasswordCheck == "expomujer599")
         {
-            SceneManager.LoadScene("Minigame");
+            SceneManager.LoadScene("Minigame5");
         }
 
         //Azucena (Minigame 06)
         else if (inputPasswordCheck == "expomujer666")
         {
-            SceneManager.LoadScene("Minigame");
+            SceneManager.LoadScene("Minigame6");
         }
 
         //Rosa (Minigame 07)
         else if (inputPasswordCheck == "expomujer731")
         {
-            SceneManager.LoadScene("Minigame");
+            SceneManager.LoadScene("Minigame7");
         }
 
         //Petunia (Minigame 08)
         else if (inputPasswordCheck == "expomujer804")
         {
-            SceneManager.LoadScene("Minigame");
+            SceneManager.LoadScene("Minigame8");
         }
 
         // if(inputPasswordCheck == "ScapeCityPatios2024NG")

@@ -76,37 +76,37 @@ public class QRManager : MonoBehaviour
 
         else if (QrCode == "expomujer245")
         {
-            SceneManager.LoadScene("Minigame");
+            SceneManager.LoadScene("Minigame2");
         }
 
         else if (QrCode == "expomujer382")
         {
-            SceneManager.LoadScene("Minigame");
+            SceneManager.LoadScene("Minigame3");
         }
         
         else if (QrCode == "expomujer476")
         {
-            SceneManager.LoadScene("Minigame");
+            SceneManager.LoadScene("Minigame4");
         }
 
         else if (QrCode == "expomujer599")
         {
-            SceneManager.LoadScene("Minigame");
+            SceneManager.LoadScene("Minigame5");
         }
 
         else if (QrCode == "expomujer666")
         {
-            SceneManager.LoadScene("Minigame");
+            SceneManager.LoadScene("Minigame6");
         }
 
         else if (QrCode == "expomujer731")
         {
-            SceneManager.LoadScene("Minigame");
+            SceneManager.LoadScene("Minigame7");
         }
 
         else if (QrCode == "expomujer804")
         {
-            SceneManager.LoadScene("Minigame");
+            SceneManager.LoadScene("Minigame8");
         }
 
         // else if (QrCode == "ScapeCityPatios_2024_NG")
