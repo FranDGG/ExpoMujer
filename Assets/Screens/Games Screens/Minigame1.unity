@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 81350634}
   - component: {fileID: 81350636}
   - component: {fileID: 81350637}
+  - component: {fileID: 81350638}
   m_Layer: 5
   m_Name: Top_01
   m_TagString: Item
@@ -226,6 +227,22 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &81350638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 81350632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01ca4ed331d4314e97697d16507334c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 999
+  SlotChecker: 0
+  win: {fileID: 0}
+  correct: {fileID: 0}
 --- !u!1 &92139478
 GameObject:
   m_ObjectHideFlags: 0
@@ -245,7 +262,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &92139479
 RectTransform:
   m_ObjectHideFlags: 0
@@ -387,6 +404,7 @@ GameObject:
   - component: {fileID: 318525514}
   - component: {fileID: 318525516}
   - component: {fileID: 318525517}
+  - component: {fileID: 318525518}
   m_Layer: 5
   m_Name: Shoes_02
   m_TagString: Item
@@ -481,6 +499,22 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &318525518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 318525512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01ca4ed331d4314e97697d16507334c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 999
+  SlotChecker: 0
+  win: {fileID: 0}
+  correct: {fileID: 0}
 --- !u!1 &349371304
 GameObject:
   m_ObjectHideFlags: 0
@@ -630,6 +664,7 @@ GameObject:
   - component: {fileID: 384758138}
   - component: {fileID: 384758140}
   - component: {fileID: 384758141}
+  - component: {fileID: 384758142}
   m_Layer: 5
   m_Name: Skirt_01
   m_TagString: Item
@@ -724,6 +759,22 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &384758142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 384758136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01ca4ed331d4314e97697d16507334c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 999
+  SlotChecker: 0
+  win: {fileID: 0}
+  correct: {fileID: 0}
 --- !u!1 &572714078
 GameObject:
   m_ObjectHideFlags: 0
@@ -753,15 +804,15 @@ RectTransform:
   m_GameObject: {fileID: 572714078}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 4.613697, y: 0.44722494, z: 2.7969043}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 651750457}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1080, y: 212}
+  m_AnchoredPosition: {x: 0, y: -682}
+  m_SizeDelta: {x: 1080, y: 452.36002}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &572714080
 MonoBehaviour:
@@ -783,7 +834,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: dd4e6406c3ddb954caa66313f756f6de, type: 3}
+  m_Sprite: {fileID: 8100539439695551272, guid: 921652c1166d8784092331874922a6f9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -927,6 +978,7 @@ GameObject:
   - component: {fileID: 611578973}
   - component: {fileID: 611578975}
   - component: {fileID: 611578976}
+  - component: {fileID: 611578977}
   m_Layer: 5
   m_Name: Ribbon_01
   m_TagString: Item
@@ -1021,6 +1073,22 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &611578977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611578971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01ca4ed331d4314e97697d16507334c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 999
+  SlotChecker: 0
+  win: {fileID: 0}
+  correct: {fileID: 0}
 --- !u!1 &651750452
 GameObject:
   m_ObjectHideFlags: 0
@@ -1129,6 +1197,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1035625586}
+  - {fileID: 1189075997}
   - {fileID: 572714079}
   - {fileID: 1564814327}
   - {fileID: 2042322059}
@@ -1170,6 +1239,7 @@ GameObject:
   - component: {fileID: 713946870}
   - component: {fileID: 713946872}
   - component: {fileID: 713946873}
+  - component: {fileID: 713946874}
   m_Layer: 5
   m_Name: Shoes_01
   m_TagString: Item
@@ -1264,6 +1334,22 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &713946874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 713946868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01ca4ed331d4314e97697d16507334c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 999
+  SlotChecker: 0
+  win: {fileID: 0}
+  correct: {fileID: 0}
 --- !u!1 &883745510
 GameObject:
   m_ObjectHideFlags: 0
@@ -1277,6 +1363,7 @@ GameObject:
   - component: {fileID: 883745512}
   - component: {fileID: 883745514}
   - component: {fileID: 883745515}
+  - component: {fileID: 883745516}
   m_Layer: 5
   m_Name: Shirt_02
   m_TagString: Item
@@ -1371,6 +1458,22 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &883745516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883745510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01ca4ed331d4314e97697d16507334c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 999
+  SlotChecker: 0
+  win: {fileID: 0}
+  correct: {fileID: 0}
 --- !u!1 &970711887
 GameObject:
   m_ObjectHideFlags: 0
@@ -1636,6 +1739,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1035625585}
   m_CullTransparentMesh: 1
+--- !u!1 &1189075996
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1189075997}
+  - component: {fileID: 1189075999}
+  - component: {fileID: 1189075998}
+  m_Layer: 5
+  m_Name: Image (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1189075997
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189075996}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 18.062305, y: 18.062305, z: 18.062305}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 651750457}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 262}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1189075998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189075996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -1355247196104442450, guid: 808765242b4c59d4097759ceba65896b, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1189075999
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189075996}
+  m_CullTransparentMesh: 1
 --- !u!1 &1233876220
 GameObject:
   m_ObjectHideFlags: 0
@@ -1839,6 +2017,7 @@ GameObject:
   - component: {fileID: 1270704804}
   - component: {fileID: 1270704806}
   - component: {fileID: 1270704807}
+  - component: {fileID: 1270704808}
   m_Layer: 5
   m_Name: Hat_02
   m_TagString: Item
@@ -1862,7 +2041,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.7167778, y: 0.8556042}
   m_AnchorMax: {x: 0.7167778, y: 0.8556042}
-  m_AnchoredPosition: {x: 118.12, y: 239}
+  m_AnchoredPosition: {x: 118.12, y: 142}
   m_SizeDelta: {x: 236.248, y: 181.45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1270704804
@@ -1933,6 +2112,22 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &1270704808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1270704802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01ca4ed331d4314e97697d16507334c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 999
+  SlotChecker: 0
+  win: {fileID: 0}
+  correct: {fileID: 0}
 --- !u!1 &1363590764
 GameObject:
   m_ObjectHideFlags: 0
@@ -2119,6 +2314,7 @@ GameObject:
   - component: {fileID: 1417986421}
   - component: {fileID: 1417986423}
   - component: {fileID: 1417986424}
+  - component: {fileID: 1417986425}
   m_Layer: 5
   m_Name: Trousers_02
   m_TagString: Item
@@ -2213,6 +2409,22 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &1417986425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1417986419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01ca4ed331d4314e97697d16507334c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 999
+  SlotChecker: 0
+  win: {fileID: 0}
+  correct: {fileID: 0}
 --- !u!1 &1564814326
 GameObject:
   m_ObjectHideFlags: 0

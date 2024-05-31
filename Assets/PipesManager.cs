@@ -56,8 +56,8 @@ public class PipesManager : MonoBehaviour
 
         if(correctedPipes == totalPipes)    
         {
-            audioSource.PlayOneShot(bubbles);
-            PipesHolder.SetActive(false);
+            //audioSource.PlayOneShot(bubbles);
+            //PipesHolder.SetActive(false);
             puzzlecompleto.SetActive(true);
             //GameManager.PlayerPoints = GameManager.PlayerPoints + 10;
             audioSource.PlayOneShot(win);
