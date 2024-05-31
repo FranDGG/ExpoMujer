@@ -25,23 +25,23 @@ public class Riddle_Script : MonoBehaviour
 
     public void ReadStringInput()
     {
-        if (inputAnswer == "el arcángel san rafael" || inputAnswer == "el arcangel san rafael" || inputAnswer == "arcangel san rafael" || inputAnswer == "arcángel san rafael" || inputAnswer == "san rafael")
+        if (inputAnswer == "marie curie" || inputAnswer == "mariecurie" || inputAnswer == "mari curie" || inputAnswer == "marie" || inputAnswer == "curie")
         {
             GameManager.RiddleGame = true;
 
             Debug.Log("CORRECT! IT WAS " + inputAnswer);
 
             GameManager.ReturnToMainBool = true;
-            SceneManager.LoadScene("Main_Scene");
+            SceneManager.LoadScene("Screen_Main");
         }
 
         else
         {
-            Debug.Log("Oh, No!... The Correct Answer it was 'El Arcangel San Rafael'");
+            Debug.Log("Oh, No!... The Correct Answer it was 'Marie Curie'");
         }
     }
     public void SaltarJuego()
     {
-        SceneManager.LoadScene("Main_Scene");
+        SceneManager.LoadScene("Screen_Main");
     }
 }
