@@ -167,7 +167,7 @@ public class MoleHandler : MonoBehaviour
   public void Delay()
   {
     GameManager.ReturnToMainBool = true;
-    SceneManager.LoadScene("Main_Scene");
+    SceneManager.LoadScene("Screen_Main");
   }
 
   public void Recargar(){
