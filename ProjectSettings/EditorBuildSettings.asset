@@ -15,6 +15,6 @@ EditorBuildSettings:
     path: Assets/Screens/Games Screens/Minigame1.unity
     guid: 0645eeb698ec1714b8519fb937deb1dc
   m_configObjects:
-    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 410828fa338e7104982f14041ea22904, type: 2}
-    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 3f0355ab415a38c4c9726825d02a9261, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 2dc4267b7b860be4ab630ba055989021, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: f2bb43e578e74764f8e56981d121544d, type: 2}
   m_UseUCBPForAssetBundles: 0
