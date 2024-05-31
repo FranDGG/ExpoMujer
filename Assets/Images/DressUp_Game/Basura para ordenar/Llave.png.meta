@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2c830a89555760244991688ac97e1593
+guid: ef14942849194334385fb1c34fa3828d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -115,7 +115,28 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Llave_5
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 157
+        width: 228
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f02dadfa7050b348b8f75ad24a3bfb9
+      internalID: -1696751351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +147,14 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Llave_0: 250928223
+      Llave_1: 1433554790
+      Llave_2: -487149765
+      Llave_3: 1868683648
+      Llave_4: 91864729
+      Llave_5: -1696751351
+      Llave_6: -1873742069
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
