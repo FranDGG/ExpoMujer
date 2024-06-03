@@ -92,6 +92,7 @@ public class SlotScript : MonoBehaviour, IDropHandler
                             GameManager.FlowersGame = true;
                         }
 
+                        Debug.Log("Has finalizado el juego");
                         GameManager.ReturnToMainBool = true;
                         SceneManager.LoadScene("Screen_Main");
                     }

@@ -95,7 +95,7 @@ public class ButtonChangeBichos : MonoBehaviour
             GameManager.BugsGame = true;
 
             GameManager.ReturnToMainBool = true;
-            SceneManager.LoadScene("Main_Scene");
+            SceneManager.LoadScene("Screen_Main");
         }
     }
     

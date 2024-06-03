@@ -112,7 +112,7 @@ public class GameController : MonoBehaviour
             GameManager.MoleGame = true;
 
             GameManager.ReturnToMainBool = true;
-            SceneManager.LoadScene("Main_Scene");
+            SceneManager.LoadScene("Screen_Main");
         }
         
     }

@@ -1631,7 +1631,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ordena las piezas para completar el puzzle y arreglar la maceta
+  m_text: Ordena las piezas para completar el puzzle y arreglar la imagen
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7b09ae18e10617746b1eeb03e36b77eb, type: 2}
   m_sharedMaterial: {fileID: 2110337973826972816, guid: 7b09ae18e10617746b1eeb03e36b77eb, type: 2}

@@ -14,7 +14,8 @@ public class HUD_Controls : MonoBehaviour
 
     public GameObject[] Sticker;
 
-    public GameObject screenTitle, screenIntro, screenStickersLocation, screenStickers, screenQRReader, ButtonQR01;
+    public GameObject screenTitle, screenIntro, screenStickersLocation, screenStickers, screenQRReader, ButtonQR01, screenFinal;
+    
 
     void Start()
     {
@@ -99,7 +100,6 @@ public class HUD_Controls : MonoBehaviour
         Sticker[5].SetActive(false);
         Sticker[6].SetActive(false);
         Sticker[7].SetActive(false);
-
     }
 
 //VENTANA EMERGENTE

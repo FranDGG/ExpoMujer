@@ -3,7 +3,24 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - PUP_Window
+  - IntroScreen
+  - CharactersScreen
+  - TitleScreen
+  - CharactersInfoScreen
+  - Button01
+  - Button02
+  - MoleHandler
+  - Slot
+  - Item
+  - Red_Flower
+  - Purple_Flower
+  - Yellow_Flower
+  - White_Flower
+  - Timer
+  - PipesManager
+  - FinalScreen
   layers:
   - Default
   - TransparentFX

@@ -128,7 +128,7 @@ public class Quizz_Controls : MonoBehaviour
 
                 GameManager.QuizzGame = true;
                 GameManager.ReturnToMainBool = true;
-                SceneManager.LoadScene("Main_Scene");
+                SceneManager.LoadScene("Screen_Main");
             }
 
         }
