@@ -93,8 +93,6 @@ public class ButtonChangeBichos : MonoBehaviour
         {
             controladorSonido.Instance.EjecutarSonido(win);
             GameManager.BugsGame = true;
-
-            GameManager.ReturnToMainBool = true;
             SceneManager.LoadScene("Screen_Main");
         }
     }

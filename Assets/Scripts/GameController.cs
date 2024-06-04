@@ -104,11 +104,7 @@ public class GameController : MonoBehaviour
         }
         //WIN LOGIC
         if(filledBottleCount == 4)
-        {
-             audioSource.PlayOneShot(win);
-
-            GameManager.PlayerPoints = GameManager.PlayerPoints + 10;
-            
+        {   
             GameManager.MoleGame = true;
 
             GameManager.ReturnToMainBool = true;

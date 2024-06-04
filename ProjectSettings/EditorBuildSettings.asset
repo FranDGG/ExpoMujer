@@ -13,28 +13,25 @@ EditorBuildSettings:
     guid: 0645eeb698ec1714b8519fb937deb1dc
   - enabled: 1
     path: Assets/Screens/Games Screens/Minigame2.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    guid: d36cd26535731884ca8ca026c1bcbdc6
   - enabled: 1
     path: Assets/Screens/Games Screens/Minigame3.unity
-    guid: 3161bba64be97ee4889f0c40fb8a9a9a
+    guid: a747779da28a23846af5bcb3d2845705
   - enabled: 1
     path: Assets/Screens/Games Screens/Minigame4.unity
-    guid: 9c2643cac7c51004bb676d8e6e6cb2c1
+    guid: 3161bba64be97ee4889f0c40fb8a9a9a
   - enabled: 1
     path: Assets/Screens/Games Screens/Minigame5.unity
-    guid: 1830062d354d2304a82c45a1e46d4d79
+    guid: 9c2643cac7c51004bb676d8e6e6cb2c1
   - enabled: 1
     path: Assets/Screens/Games Screens/Minigame6.unity
     guid: ba65df6a815fe474981e5c7fc12db686
   - enabled: 1
     path: Assets/Screens/Games Screens/Minigame7.unity
-    guid: d36cd26535731884ca8ca026c1bcbdc6
+    guid: 1830062d354d2304a82c45a1e46d4d79
   - enabled: 1
     path: Assets/Screens/Games Screens/Minigame8.unity
-    guid: 505094cdf96976d439346cb1d1d9a134
-  - enabled: 1
-    path: Assets/Screens/Games Screens/Minigame11.unity
-    guid: a747779da28a23846af5bcb3d2845705
+    guid: 3be1cad391c718146a0ef1bae0597c41
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 2dc4267b7b860be4ab630ba055989021, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: f2bb43e578e74764f8e56981d121544d, type: 2}

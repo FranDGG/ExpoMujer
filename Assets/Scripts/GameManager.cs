@@ -8,9 +8,7 @@ public class GameManager : MonoBehaviour
 {
   public static GameManager instance;
 
-  public static bool PipeGame, MoleGame, RiddleGame, BugsGame, QuizzGame, DressUpGame, PuzzleGame, FlowersGame, ReturnToMainBool = false, CorrectAnswer = false;
-  
-  public static float PlayerPoints = 0;
+  public static bool PipeGame, MoleGame, RiddleGame, BugsGame, QuizzGame, DressUpGame, PuzzleGame, TrashGame, ReturnToMainBool = false, CorrectAnswer = false;
   
   void Start()
   {

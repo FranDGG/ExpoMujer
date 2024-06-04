@@ -12,11 +12,9 @@ public class HUD_Controls : MonoBehaviour
 
     private GameObject[] PUP_Window;
 
-    public GameObject[] Sticker;
+    public GameObject[] Sticker, Info_Sticker;
 
     public GameObject screenTitle, screenIntro, screenStickersLocation, screenStickers, screenQRReader, ButtonQR01, screenFinal;
-    
-
     void Start()
     {
         PUP_Window = GameObject.FindGameObjectsWithTag("PUP_Window");
@@ -25,16 +23,63 @@ public class HUD_Controls : MonoBehaviour
         {
             obj.SetActive(false);
         }
+
+        if (GameManager.DressUpGame || GameManager.BugsGame || GameManager.PipeGame || GameManager.RiddleGame || GameManager.QuizzGame || GameManager.PuzzleGame || GameManager.TrashGame || GameManager.MoleGame)
+        {
+            DisableScreens();
+            screenStickers.SetActive(true);
+        }
+
+        if (GameManager.DressUpGame && GameManager.BugsGame && GameManager.PipeGame && GameManager.RiddleGame && GameManager.QuizzGame && GameManager.PuzzleGame && GameManager.TrashGame && GameManager.MoleGame)
+        {
+            DisableScreens();
+            screenFinal.SetActive(true);
+        }
+
+        if (GameManager.DressUpGame)
+        {
+            Sticker[0].SetActive(false);
+        }
+
+        if (GameManager.BugsGame)
+        {
+            Sticker[1].SetActive(false);
+        }
+
+        if (GameManager.PipeGame)
+        {
+            Sticker[2].SetActive(false);
+        }
+
+        if (GameManager.RiddleGame)
+        {
+            Sticker[3].SetActive(false);
+        }
+
+        if (GameManager.QuizzGame)
+        {
+            Sticker[4].SetActive(false);
+        }
+
+        if (GameManager.PuzzleGame)
+        {
+            Sticker[5].SetActive(false);
+        }
+
+        if (GameManager.TrashGame)
+        {
+            Sticker[6].SetActive(false);
+        }
+
+        if (GameManager.MoleGame)
+        {
+            Sticker[7].SetActive(false);
+        }
     }
 
     void Update()
     {
-        if (GameManager.DressUpGame)
-        {
-            DisableScreens();
-            screenStickers.SetActive(true);
-            
-        }
+
     }
 
 //CAMBIOS DE PANTALLA.
@@ -51,14 +96,15 @@ public class HUD_Controls : MonoBehaviour
         if (screen == 3) {screenStickers.SetActive(true);}
 
         if (screen > 3 && screen <= 11) {screenStickersLocation.SetActive(true);}
-        if (screen == 4) {Sticker[0].SetActive(true);}
-        if (screen == 5) {Sticker[1].SetActive(true);}
-        if (screen == 6) {Sticker[2].SetActive(true);}
-        if (screen == 7) {Sticker[3].SetActive(true);}
-        if (screen == 8) {Sticker[4].SetActive(true);}
-        if (screen == 9) {Sticker[5].SetActive(true);}
-        if (screen == 10) {Sticker[6].SetActive(true);}
-        if (screen == 11) {Sticker[7].SetActive(true);}
+        if (screen == 4) {Info_Sticker[0].SetActive(true);}
+        if (screen == 5) {Info_Sticker[1].SetActive(true);}
+        if (screen == 6) {Info_Sticker[2].SetActive(true);}
+        if (screen == 7) {Info_Sticker[3].SetActive(true);}
+        if (screen == 8) {Info_Sticker[4].SetActive(true);}
+        if (screen == 9) {Info_Sticker[5].SetActive(true);}
+        if (screen == 10) {Info_Sticker[6].SetActive(true);}
+        if (screen == 11) {Info_Sticker[7].SetActive(true);}
+        if (screen == 12) {screenFinal.SetActive(true);}
 
         if (screen == 15)
         {
@@ -71,14 +117,14 @@ public class HUD_Controls : MonoBehaviour
 
     public void GoMinigames(int MiniGames)
     {
-        if (MiniGames == 1) { PlayerPrefs.SetInt("Mini01", 1);}
-        if (MiniGames == 2) { PlayerPrefs.SetInt("Mini02", 1);}
-        if (MiniGames == 3) { PlayerPrefs.SetInt("Mini03", 1);}
-        if (MiniGames == 4) { PlayerPrefs.SetInt("Mini04", 1);}
-        if (MiniGames == 5) { PlayerPrefs.SetInt("Mini05", 1);}
-        if (MiniGames == 6) { PlayerPrefs.SetInt("Mini06", 1);}
-        if (MiniGames == 7) { PlayerPrefs.SetInt("Mini07", 1);}
-        if (MiniGames == 8) { PlayerPrefs.SetInt("Mini08", 1);}
+        if (MiniGames == 1) {PlayerPrefs.SetInt("Mini01", 1);}
+        if (MiniGames == 2) {PlayerPrefs.SetInt("Mini02", 1);}
+        if (MiniGames == 3) {PlayerPrefs.SetInt("Mini03", 1);}
+        if (MiniGames == 4) {PlayerPrefs.SetInt("Mini04", 1);}
+        if (MiniGames == 5) {PlayerPrefs.SetInt("Mini05", 1);}
+        if (MiniGames == 6) {PlayerPrefs.SetInt("Mini06", 1);}
+        if (MiniGames == 7) {PlayerPrefs.SetInt("Mini07", 1);}
+        if (MiniGames == 8) {PlayerPrefs.SetInt("Mini08", 1);}
 
         SceneManager.LoadScene("Minigame" + MiniGames);
     }
@@ -91,15 +137,16 @@ public class HUD_Controls : MonoBehaviour
         screenStickers.SetActive(false);
         screenStickersLocation.SetActive(false);
         screenQRReader.SetActive(false);
+        screenFinal.SetActive(false);
 
-        Sticker[0].SetActive(false);
-        Sticker[1].SetActive(false);
-        Sticker[2].SetActive(false);
-        Sticker[3].SetActive(false);
-        Sticker[4].SetActive(false);
-        Sticker[5].SetActive(false);
-        Sticker[6].SetActive(false);
-        Sticker[7].SetActive(false);
+        Info_Sticker[0].SetActive(false);
+        Info_Sticker[1].SetActive(false);
+        Info_Sticker[2].SetActive(false);
+        Info_Sticker[3].SetActive(false);
+        Info_Sticker[4].SetActive(false);
+        Info_Sticker[5].SetActive(false);
+        Info_Sticker[6].SetActive(false);
+        Info_Sticker[7].SetActive(false);
     }
 
 //VENTANA EMERGENTE

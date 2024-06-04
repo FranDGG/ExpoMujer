@@ -33,7 +33,6 @@ public class BichosBoton : MonoBehaviour
     {
         if(puntos == 28)
         {
-            GameManager.PlayerPoints = GameManager.PlayerPoints + 10;
             controladorSonido.Instance.EjecutarSonido(win);
 
             GameManager.BugsGame = true;

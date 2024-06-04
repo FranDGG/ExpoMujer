@@ -27,52 +27,52 @@ public class PasswordQR : MonoBehaviour
 
     public void ReadStringInput()
     {
-        //Narciso (Minigame 01)
+        //Shirt (Dress Up Game)
         if (inputPasswordCheck == "expomujer107") 
         {
             SceneManager.LoadScene("Minigame1");
         }
 
-        //Margarita (Minigame 02)
+        //Flowers (Bugs Game)
         else if (inputPasswordCheck == "expomujer245")
         {
-            SceneManager.LoadScene("Minigame4");
+            SceneManager.LoadScene("Minigame2");
         }
 
-        //Florencio (Minigame 03)
+        //Lego (LightBulb Game)
         else if (inputPasswordCheck == "expomujer382")
-        {
-            SceneManager.LoadScene("Minigame7");
-        }
-
-        //Jacinto (Minigame 04)
-        else if (inputPasswordCheck == "expomujer476")
-        {
-            SceneManager.LoadScene("Minigame6");
-        }
-
-        //Gladiolo (Minigame 05)
-        else if (inputPasswordCheck == "expomujer599")
         {
             SceneManager.LoadScene("Minigame3");
         }
 
-        //Azucena (Minigame 06)
-        else if (inputPasswordCheck == "expomujer666")
+        //DNA (Marie Curie Riddle)
+        else if (inputPasswordCheck == "expomujer476")
+        {
+            SceneManager.LoadScene("Minigame4");
+        }
+
+        //MagnifyingGlass (Quizz Game)
+        else if (inputPasswordCheck == "expomujer599")
         {
             SceneManager.LoadScene("Minigame5");
         }
 
-        //Rosa (Minigame 07)
-        else if (inputPasswordCheck == "expomujer731")
+        //MakeUp (Puzzle Game)
+        else if (inputPasswordCheck == "expomujer666")
         {
-            SceneManager.LoadScene("Minigame11");
+            SceneManager.LoadScene("Minigame6");
         }
 
-        //Petunia (Minigame 08)
+        //Sandwitch (Trash Game)
+        else if (inputPasswordCheck == "expomujer731")
+        {
+            SceneManager.LoadScene("Minigame7");
+        }
+
+        //Newgaming (Mole Game)
         else if (inputPasswordCheck == "expomujer804")
         {
-            SceneManager.LoadScene("Minigame2");
+            SceneManager.LoadScene("Minigame8");
         }
 
         // if(inputPasswordCheck == "ScapeCityPatios2024NG")
