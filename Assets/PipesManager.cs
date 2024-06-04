@@ -17,23 +17,9 @@ public class PipesManager : MonoBehaviour
     [SerializeField]
     int correctedPipes = 0;
 
-
-    [SerializeField] AudioClip bubbles;
-    [SerializeField] AudioClip win;
-    [SerializeField] AudioClip correct;
-    AudioSource audioSource;
-
     private void Awake()
     {
-        audioSource = GetComponent<AudioSource>();
-        Slot = GameObject.FindGameObjectWithTag("Slot");
 
-       
-        // Ocultar la interfaz de usuario del juego Topos
-        //gameUI.SetActive(false);
-
-        // Iniciar el juego automáticamente topos
-        //StartGame();
     }
 
      void Start()
@@ -51,16 +37,11 @@ public class PipesManager : MonoBehaviour
     public void correctMove()
     {
         correctedPipes += 1;
-        audioSource.PlayOneShot(correct);
         Debug.Log("GREAT!");
 
         if(correctedPipes == totalPipes)    
         {
-            //audioSource.PlayOneShot(bubbles);
-            //PipesHolder.SetActive(false);
             puzzlecompleto.SetActive(true);
-            //GameManager.PlayerPoints = GameManager.PlayerPoints + 10;
-            audioSource.PlayOneShot(win);
             GameManager.PipeGame = true;
             Invoke("Delay", 1.4f);
         }

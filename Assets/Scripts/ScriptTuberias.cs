@@ -15,24 +15,14 @@ public class ScriptTuberias : MonoBehaviour
     [SerializeField]
     bool isPlaced = false;
 
-    
     int PossibleRots = 1;
-
 
     private GameObject PipesManager;
 
-
-    // Sonido al girar la tubería
-    [SerializeField] AudioClip rotateSound;
-    AudioSource audioSource;
-
     private void Awake()
     {
-        
         //Encuentra el game Manager
         PipesManager = GameObject.FindGameObjectWithTag("PipesManager");
-    
-        audioSource = GetComponent<AudioSource>();
     }
 
     private void Start()
@@ -76,8 +66,6 @@ public class ScriptTuberias : MonoBehaviour
         //Rota la tubería
         transform.Rotate(new Vector3(0,0,90));
 
-        audioSource.PlayOneShot(rotateSound);
-                
         //Checks cuando se mueve una tubería (similar to update)
         if(PossibleRots > 1)
         {
