@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Basura_bg_0: -5291428742154111439
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
