@@ -171,7 +171,7 @@ public class MoleHandler : MonoBehaviour
   }
 
   public void Recargar(){
-    SceneManager.LoadScene("Minigame2");
+    SceneManager.LoadScene("Minigame8");
   }
     
   public void Missed(int moleIndex, bool isMole) {
