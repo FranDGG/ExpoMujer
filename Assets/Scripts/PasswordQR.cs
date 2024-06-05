@@ -52,13 +52,13 @@ public class PasswordQR : MonoBehaviour
         }
 
         //MagnifyingGlass (Quizz Game)
-        else if (inputPasswordCheck == "expomujer599")
+        else if (inputPasswordCheck == "expomujer550")
         {
             SceneManager.LoadScene("Minigame5");
         }
 
         //MakeUp (Puzzle Game)
-        else if (inputPasswordCheck == "expomujer666")
+        else if (inputPasswordCheck == "expomujer606")
         {
             SceneManager.LoadScene("Minigame6");
         }
