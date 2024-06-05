@@ -18,23 +18,11 @@ public class ButtonChangeBichos : MonoBehaviour
     public buttonBicho buttonBichoScript;
 
 
-    
-
-    
-    [SerializeField] AudioClip sonido;
-    [SerializeField] AudioClip win;       
-
-
-
     public void ButtonPressed()
-    {   
-        Debug.Log("Antonio NOOOOO");
+    {
         DeactivateButton.interactable = false;
-        controladorSonido.Instance.EjecutarSonido(sonido);
         puntos++;
         puntosMax();
-
-        
     }
 
 
@@ -91,7 +79,6 @@ public class ButtonChangeBichos : MonoBehaviour
     {
         if(puntos == 21)
         {
-            controladorSonido.Instance.EjecutarSonido(win);
             GameManager.BugsGame = true;
             SceneManager.LoadScene("Screen_Main");
         }
