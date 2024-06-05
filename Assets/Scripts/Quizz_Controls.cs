@@ -136,7 +136,7 @@ public class Quizz_Controls : MonoBehaviour
 
     private void Restart()
     {
-        SceneManager.LoadScene("Minigame4");
+        SceneManager.LoadScene("Minigame5");
     }
 
 }
